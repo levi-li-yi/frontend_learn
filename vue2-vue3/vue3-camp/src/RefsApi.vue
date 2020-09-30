@@ -86,7 +86,7 @@ export default {
     foo.value = {}
     console.log(isReactive(foo.value)) // false
 
-    // 手动触发shallowRef追踪的对象产生effect响应
+    // 手动使经shallowRef追踪的对象触发effect响应
     const shallow = shallowRef({
       greet: 'Hello world'
     })
