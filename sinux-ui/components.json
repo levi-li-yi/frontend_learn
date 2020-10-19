@@ -1,0 +1,5 @@
+{
+  "input": "./packages/input/index.js",
+  "tree": "./packages/tree/index.js",
+  "checkbox": "./packages/checkbox/index.js"
+}
